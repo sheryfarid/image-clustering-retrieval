@@ -1,0 +1,7 @@
+{
+  "classifier_type": "random_forest",
+  "train_accuracy": 1.0,
+  "validation_accuracy": 0.902127659574468,
+  "use_pca": true,
+  "created_at": "2026-01-07 19:09:48"
+}
