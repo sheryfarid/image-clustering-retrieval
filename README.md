@@ -66,3 +66,67 @@ The Streamlit app allows users to:
 ---
 
 ## 📁 Project Structure
+```
+
+image-clustering-retrieval/
+├── configs/
+├── data/
+├── features/
+├── models/
+│   ├── classifier/
+│   ├── clustering/
+│   └── faiss_index/
+├── results/
+├── app.py
+├── final_report.json
+└── README.md
+
+````
+
+---
+
+## ⚙️ Setup & Run
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Streamlit app
+streamlit run app.py
+````
+
+---
+
+## 🚀 Future Improvements
+
+* Replace ResNet-50 with **ViT or EfficientNet**
+* Improve clustering using **deep or spectral clustering**
+* Scale retrieval to larger datasets
+* Add fairness and bias evaluation per category
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates a **practical, real-world image understanding pipeline** combining deep learning with classical ML.
+While clustering remains challenging, **classification and retrieval results are strong**, proving the effectiveness of deep feature embeddings.
+
+---
+
+## 👥 Team Members
+
+* Abdul Basit (22F-BSAI-25)
+* Shehryar Ahmed (22F-BSAI-28)
+* Muhammad Hamamd (22F-BSAI-39)
+* Muhammad Sohaib (22F-BSAI-40)
+
+```
+
